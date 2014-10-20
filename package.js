@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'mira-validator',
+  name: 'leesangwon:mira-validator',
   summary: "Validator for client and server including Chris O'Hara's validator",
   version: '0.2.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/miraten/mira-validator'
 });
 
 Package.onUse(function(api) {
@@ -18,7 +18,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('mira-validator');
+  api.use('leesangwon:mira-validator');
 
   api.addFiles('mira-validator-tests.js');
 });
